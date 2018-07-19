@@ -75,7 +75,7 @@
     "webpack-merge": "^4.1.2"
   },
   "dependencies": {
-    "react-sliding-container": "0.0.7"
+    "react-sliding-container": "0.0.8"
   },
   "postcss": {},
   "moduleDirectories": [
