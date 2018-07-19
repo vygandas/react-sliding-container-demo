@@ -75,8 +75,7 @@
     "webpack-merge": "^4.1.2"
   },
   "dependencies": {
-    "@types/google-map-react": "^0.23.4",
-    "google-map-react": "^1.0.5"
+    "react-sliding-container": "0.0.7"
   },
   "postcss": {},
   "moduleDirectories": [
