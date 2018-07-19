@@ -1,48 +1,18 @@
-# Helsinki Transit Route Amenities
+# react-sliding-container demo
 
-[![CircleCI](https://circleci.com/gh/vygandas/helsinki-transit-route-amenities-react-typescript-graphql/tree/master.svg?style=svg)](https://circleci.com/gh/vygandas/helsinki-transit-route-amenities-react-typescript-graphql/tree/master)
+Package https://github.com/vygandas/react-sliding-container
 
-Website is deployed with CI here https://agitated-lovelace-bc6fda.netlify.com/#/
+This small project is intended to show how you can use `react-sliding-container` npm package.
 
-## Task
+Live version deployed here https://agitated-banach-4668c2.netlify.com/ 
 
-API: https://api.digitransit.fi/graphiql/hsl
+## Install package
 
-Console: http://dev.hsl.fi/graphql/console/ 
+`npm i --save react-sliding-container`
 
-More Details: https://digitransit.fi/en/developers/
- 
-**Requirements:**
+--
 
-- App should enable user to enter a location in Helsinki and it should show me the nearest amenities (stops, bike rentals, bike parking, and car parking)
-  - You will probably want to use some geocoding API for this. 
-    (e.g. https://digitransit.fi/en/developers/apis/2-geocoding-api/address-search/) 
-- App should use React
-- App should be written in TypeScript and demonstrate proper usage of types 
-- App should consist of two screens:
-  - Enter location screen
-  - Results screen
-- App should be mobile responsive
-
-
-## Features in this project core
-
-* **[React](https://facebook.github.io/react/)** (16.x)
-* **[Webpack](https://webpack.js.org/)** (4.x)
-* **[Typescript](https://www.typescriptlang.org/)** (2.x)
-* **[Hot Module Replacement (HMR)](https://webpack.js.org/concepts/hot-module-replacement/)** using [React Hot Loader](https://github.com/gaearon/react-hot-loader) (4.x)
-* [Babel](http://babeljs.io/) (6.x)
-* [SASS](http://sass-lang.com/)
-* [Jest](https://facebook.github.io/jest/) - Testing framework for React applications
-* Production build script
-* Image loading/minimization using [Image Webpack Loader](https://github.com/tcoopman/image-webpack-loader)
-* Typescript compiling using [Awesome Typescript Loader](https://github.com/s-panferov/awesome-typescript-loader) (5.x)
-* Code quality (linting) for Typescript and SASS/CSS.
-* **[Axios](https://github.com/axios/axios)**
-* **[Thunk](https://github.com/reduxjs/redux-thunk)**
----
-
-## Installation
+## Installation of this demo
 1. `npm install`
 
 ## Usage
