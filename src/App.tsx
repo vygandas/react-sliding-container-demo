@@ -3,7 +3,7 @@ import * as React from "react";
 // This is the main component that you need.
 import SlidingContainer from "react-sliding-container";
 // Component comes without CSS styles, so if you want to have default ones you must include this
-import "../node_modules/react-sliding-container/lib/SlidingContainer.css";
+import "../node_modules/react-sliding-container/lib/main.css";
 
 import "assets/scss/App.scss";
 
