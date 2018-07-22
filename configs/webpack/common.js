@@ -1,5 +1,5 @@
 // shared config (dev and prod)
-const {resolve} = require('path');
+const {resolve, path} = require('path');
 const {CheckerPlugin} = require('awesome-typescript-loader');
 const StyleLintPlugin = require('stylelint-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
@@ -16,13 +16,20 @@ module.exports = {
             'reducers': resolve('src/reducers'),
             'actions': resolve('src/actions'),
         },
+        symlinks: true,
+        // modules: [
+        //     //path.resolve(__dirname, '..', 'node_modules'),
+        //     'node_modules',
+        //     '/Users/vygandas/Git/react-sliding-container/node_modules',
+            
+        // ],
     },
     context: resolve(__dirname, '../../src'),
     module: {
         rules: [
             {
                 test: /\.js$/,
-                use: ['babel-loader', 'source-map-loader'],
+                use: ['babel-loader'], //, 'source-map-loader'
                 exclude: /node_modules/,
             },
             {
@@ -31,7 +38,14 @@ module.exports = {
             },
             {
                 test: /\.css$/,
-                use: ['style-loader', { loader: 'css-loader', options: { importLoaders: 1 } }, 'postcss-loader',],
+                use: [
+                    'style-loader',
+                    {
+                        loader: 'css-loader',
+                        options: { importLoaders: 1 }
+                    },
+                    //{ loader: 'postcss-loader', options: { parser: 'sugarss', exec: false } }
+                ],
             },
             {
                 test: /\.scss$/,
