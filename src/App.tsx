@@ -43,7 +43,7 @@ export default class App extends React.Component<undefined, undefined> {
                                 <div>
                                 <iframe style={{position: "absolute", top: 0, bottom: 0, left: 0, right: 0, width: "100%", height: "100%"}}
                                     width="560" height="315" src="https://www.youtube.com/embed/JhKBSLRU5XA?start=10"
-                                    frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                                    frameBorder="0" allowFullScreen></iframe>
                                 </div>
                             </Slide>
                             <Slide
