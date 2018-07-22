@@ -29,3 +29,7 @@ button {
 .form-control {
   @include rounded(0);
 }
+
+.react-sliding-container-slide-content {
+  color: white;
+}

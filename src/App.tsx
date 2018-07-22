@@ -20,20 +20,21 @@ export default class App extends React.Component<undefined, undefined> {
                                 className: "my-slider",
                                 height: "500px",
                                 slideXMarginPx: 10,
-                                showArrows: true
+                                showArrows: true,
+                                slideTime: 100
                             }}
                         >
                             <Slide
                                 backgroundImage="url('https://www.publicdomainpictures.net/pictures/130000/velka/abstract-wallpaper-1442844111BON.jpg')"
                             >
-                                <div>
+                                <div className="pt-5 mt-5">
                                     <h2>Hello world!</h2>
                                 </div>
                             </Slide>
                             <Slide
                                 backgroundImage="url('https://cdn.pixabay.com/photo/2016/06/02/02/33/triangles-1430105__340.png')"
                             >
-                                <div>
+                                <div className="pt-5 mt-5">
                                     <h2>This works!</h2>
                                 </div>
                             </Slide>
@@ -60,14 +61,14 @@ export default class App extends React.Component<undefined, undefined> {
                             <Slide
                                 backgroundImage="url('https://5dwallpaper.com/wp-content/uploads/2016/06/space-wallpaper-hd6.jpg')"
                             >
-                                <div>
+                                <div className="pt-5 mt-5">
                                     <h2>Nice picture.</h2>
                                 </div>
                             </Slide>
                             <Slide
                                 backgroundImage="url('http://aslania.com/wp-content/uploads/2018/03/abstract-wallpapers-11.jpg')"
                             >
-                                <div>
+                                <div className="pt-5 mt-5">
                                     <h2>Why not this one too.</h2>
                                 </div>
                             </Slide>
